@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+
+# yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# testing
+reports/
+coverage/
+
+# production
+build/
+lib/
+dist/
+
+# temporary
+.tmp/
+tmp/
+temp/
+*.tmp
+
+# misc
+.DS_Store
+.env.*
+*.vaultconfig.json
+
+# logs
+*.log*
